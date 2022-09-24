@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #E4E9F7;
+}
+
+.susses_guardar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.susses_guardar h1{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.imagen_qr{
+    max-width: 400px;
+}
+.botones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    text-decoration: none;
+    color: #FFF;
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.cancelar{
+    background-color: red;
+}
+.cancelar:hover{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.descargar{
+    background-color: green;
+}
+.descargar:hover{
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.error_guardar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error_guardar h1{
+    color: red;
+    margin: 40px;
+}
